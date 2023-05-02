@@ -204,7 +204,7 @@ while invalido == True:
             os.system('cls')
             escolhida.append(escolha)
             break
-        index = letrasAlternativas.index(escolha)
+        
         escolhida.append(escolha)
         if resposta == escolha:
             contadorCertas += 1

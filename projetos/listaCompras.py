@@ -45,7 +45,7 @@ while True:
         msvcrt.getch()
     elif opcao == 'i':
         os.system('cls')
-        print('Para para de inserir itens, digite "pare"')
+        print('Para parar de inserir itens, digite "pare"')
         while novo_valor != 'pare':
             novo_valor = input('Valor: ')
             lista.append(novo_valor)
